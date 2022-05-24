@@ -35,4 +35,6 @@ npm-debug.log
 # vmendi
 secrets.txt
 .DS_STORE
+.idea
+*.iml
 
