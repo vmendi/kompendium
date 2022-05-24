@@ -1,4 +1,4 @@
-defmodule KompendiumWeb.PageController do
+defmodule KompendiumWeb.HelloController do
   use KompendiumWeb, :controller
 
   def index(conn, _params) do

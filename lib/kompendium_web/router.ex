@@ -17,7 +17,7 @@ defmodule KompendiumWeb.Router do
   scope "/", KompendiumWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/", HelloController, :index
   end
 
   # Other scopes may use custom stacks.
