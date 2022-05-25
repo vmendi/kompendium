@@ -18,6 +18,7 @@ defmodule KompendiumWeb.Router do
     pipe_through :browser
 
     get "/", HelloController, :index
+    get "/hello/:who", HelloController, :who
   end
 
   # Other scopes may use custom stacks.
